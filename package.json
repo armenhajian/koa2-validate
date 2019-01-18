@@ -1,0 +1,29 @@
+{
+  "name": "koa2-validate",
+  "version": "1.0.0",
+  "description": "Validation middleware for koa2 request params with help of validator package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Armen Hajian",
+    "email": "rmenhajian@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armenhajian/koa2-validate.git"
+  },
+  "homepage": "https://github.com/armenhajian/koa2-validate",
+  "keywords": [
+    "validator",
+    "validation",
+    "validate",
+    "middleware",
+    "koa2"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^10.11.0"
+  }
+}
