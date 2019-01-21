@@ -61,13 +61,13 @@ const validatorError = (key, rule) => {
     return `${key} is required.`;
   }
 
-  return `${key} should be ${rule}.`;
+  return `${key} should be ${rule.toLowerCase()}`;
 };
 
 const capitalize = string => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-export default () => {
+module.exports = () => {
   return validateMdlwr;
 };
